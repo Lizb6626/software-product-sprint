@@ -7,3 +7,91 @@
 #greeting-container {
   margin-top: 20px;
 }
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #F5F5DC;
+}
+
+img {
+	width: 100%
+}
+
+div.head {
+    background-color: #000000;
+    height: 44px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+div.navi {
+    background-color: #000000;
+    text-align: center;
+}
+
+div.navi ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	padding-top:6px;
+	padding-bottom:6px;
+}
+
+div.navi li {display: inline;}
+
+div.navi a {
+    color: #FFFFFF;
+    text-align: center;
+    padding: 6px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.seg {
+    background-color: #808080;
+    color: #FFFFFF;
+    text-align: center;
+    height: 100px;
+    line-height: 30px;
+}
+
+.seg p.upper {
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.seg p.buttom {
+    font-size: 24px;
+}
+
+p.content {
+    text-indent: 32px;
+    line-height: 150%;
+}
+
+#places {
+    height: 1700px;
+}
+
+div.img {
+  margin: 2px;
+  border: 1px solid #EEE8AA;
+  height: 500px;
+  width: 300px;
+  float: left;
+  text-align: center;
+}	
+
+div.img img {
+  display: inline;
+  margin: 3px;
+  border: 1px solid #FAF0E6;
+}
+
+div.desc {
+  text-align: center;
+  font-weight: normal;
+  width: 280px;
+  margin: 2px;
+  padding: 10px;
+}

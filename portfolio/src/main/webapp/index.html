@@ -7,12 +7,114 @@
     <script src="script.js"></script>
   </head>
   <body>
+	<header>
+        <div class="head"><h1>Zhibing Li</h1></div>
+	</header>
+    <div class="navi">
+        <ul>
+            <li><a href="#background">background</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#profiles">profiles</a></li>
+            <li><a href="#places">places</a></li>
+            <li><a href="photograph">photograph</a></li>
+            <li><a href="talents">talents</a></li>
+        </ul>
+    </div>
     <div id="content">
-      <h1>My Portfolio</h1>
-      <p>This is my portfolio.</p>
-      <p>Click here to get a random message:</p>
-      <button onclick="addRandomGreeting()">Hello</button>
-      <div id="greeting-container"></div>
+        <div id="background">
+            <div class="seg">
+                <p class="upper">what makes me me</p>
+                <p class="buttom">My Background</p>
+            </div>
+            <p class="content">I come from Sichuan Province. Now I am a second grade student majoring in computer science in Tsinghua University.</p>
+        </div>
+
+        <div id="projects">
+            <div class="seg">
+                <p class="upper">projects I've worked on</p>
+                <p class="buttom">My Projects</p>
+            </div>
+            <ul>
+                <li>Computational graph</li>
+                <li>Name Disambiguation from Scratch</li>
+                <li>sentiment classification</li>
+                <li>connect4 AI</li>
+            </ul>
+        </div>
+
+        <div id="profiles">
+            <div class="seg">
+                <p class="upper">Github and Linkedin profiles</p>
+                <p class="buttom">My Profiles</p>
+            </div>
+            <a href="https://github.com/Lizb6626">My Github profile.</a>
+            <br>
+            <a href="https://www.linkedin.com/in/%E6%9D%8E-%E8%8A%B7%E5%86%B0-94a37318a/">My Linkedin profile.</a>
+        </div>
+
+        <div id="places">
+            <div class="seg">
+                <p class="upper">a gallery of my favorite places</p>
+                <p class="buttom">Places</p>
+            </div>
+            <div class="img">
+                <img src="images/place-1.jpg">
+                <div class="desc">Xi'an</div>
+            </div>
+            <div class="img">
+                <img src="images/place-2.jpg">
+                <div class="desc">Xi'an</div>
+            </div>
+            <div class="img">
+                <img src="images/place-3.jpg">
+                <div class="desc">Li Jiang</div>
+            </div>
+            <div class="img">
+                <img src="images/place-4.jpg">
+                <div class="desc">Li Jiang</div>
+            </div>
+            <div class="img">
+                <img src="images/place-5.jpg">
+                <div class="desc">Chong Qing</div>
+            </div>
+            <div class="img">
+                <img src="images/place-6.jpg">
+                <div class="desc">Chong Qing</div>
+            </div>
+        </div>
+        <div id="photograph">
+            <div class="seg">
+                <p class="upper">what I enjoy photographing</p>
+                <p class="buttom">Photographing</p>
+            </div>
+            <p class="content">I enjoy photographing scenery.</p>
+        </div>
+        <div id="talens">
+            <div class="seg">
+                <p class="upper">one of my hidden talents</p>
+                <p class="buttom">Talents</p>
+            </div>
+            <article>
+                <h1>Go(game)</h1>
+                <h2>Overview</h2>
+                <p>Go is an abstract strategy board game for two players, in which the aim is to surround more territory than the opponent. The game was invented in China more than 2,500 years ago and is believed to be the oldest board game continuously played to the present day.</p>
+                <h2>Rules</h2>
+                <p>Aside from the order of play (alternating moves, Black moves first or takes a handicap) and scoring rules, there are essentially only two rules in Go:
+                    <ul>
+                        <li>Rule 1 (the rule of liberty) states that every stone remaining on the board must have at least one open "point" (an intersection, called a "liberty") directly orthogonally adjacent (up, down, left, or right), or must be part of a connected group that has at least one such open point ("liberty") next to it. Stones or groups of stones which lose their last liberty are removed from the board.</li>
+                        <li>Rule 2 (the "ko rule") states that the stones on the board must never repeat a previous position of stones. Moves which would do so are forbidden, and thus only moves elsewhere on the board are permitted that turn.</li>
+                    </ul>
+                </p>
+                <h2>Tactics</h2>
+                <p>
+                    In Go, tactics deal with immediate fighting between stones, capturing and saving stones, life, death and other issues localized to a specific part of the board. Larger issues, not limited to only part of the board, are referred to as strategy, and are covered in their own section.
+                    <ul>
+                        <li>Capturing tactics</li>
+                        <li>Reading ahead</li>
+                        <li>Ko fighting</li>
+                    </ul>
+            </article>
+        </div>
     </div>
   </body>
 </html>
